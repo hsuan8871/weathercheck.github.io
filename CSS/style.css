@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+  padding: 10px;
+}
+p{
+  text-align: center;
+}
+
+
+
+
+#rainingBackGround{
+    background-image: url('images/raining.gif');
+    background-blend-mode: lighten;
+    background-size: 1000px 300px;
+}
+#cloudyBackGroud{
+    background-image: url('images/cloud.gif');
+    background-size: 1000px 300px;
+}
+#snowBackGround{
+    background-image: url('images/snow.gif');
+    background-size: 1000px 300px;
+}
+#clearskyBackGround{
+    background-image: url("images/sky.gif");
+    background-size: 1000px 300px;
+}
+#lightningBackGround{
+    background-image: url("images/lightning.gif");
+    background-size: 1000px 300px;
+}

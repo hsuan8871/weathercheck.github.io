@@ -1,0 +1,57 @@
+
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    <title>Weather</title>
+  </head>
+
+
+
+
+  <body >
+
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">The Weather Checker</a>
+        </div>
+    </nav>
+
+
+
+      <div class="search card card-body">
+        <h1 style="font-family:verdana; color:Black; font-size: 20px;">
+          Search a City</h1>
+        <p class="font-family:verdana;">Enter a Location to find weather</p>
+            <input type="text" id="searchLocation" class="form-control mb-2" placeholder="Location...">
+            <button type="button" class="btn btn-outline-info" id="addButton">Search</button>
+      </div>
+
+        <div class="Gradient">
+          <h3 style="color:white">Background</h3>
+          <br>
+          <input class = "color1"  type="hidden"value="#00ff00">
+          <input class = "color2"  type="hidden"  value="#ff0000">
+        </br>
+          <button class ="buttonstyle" onclick="setGradient()">Change Background</button><br/>
+          <button class ="buttonstyle" onclick="reset()" >Reset Background</button>
+        </div>
+
+      <div id="results">
+      </div>
+
+
+
+    <script type="text/javascript" src="Script/script.js"></script>
+    <script type="text/javascript" src="Script/Storage.js"></script>
+    <script type="text/javascript" src="Script/weather.js"></script>
+    <script type="text/javascript" src="Script/ui.js"></script>
+    <script type="text/javascript" src="Script/app.js"></script>
+
+
+  </body>
+</html>
